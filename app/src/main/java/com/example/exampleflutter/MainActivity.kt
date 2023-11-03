@@ -67,6 +67,13 @@ class MainActivity : AppCompatActivity() {
                         .build()
                 )
             },
+            ItemBean("跳转Flutter屏幕适配页面"){
+                FlutterBoost.instance().open(
+                    FlutterBoostRouteOptions.Builder()
+                        .pageName("screenAdaptPage")
+                        .build()
+                )
+            },
         ))
     }
 
